@@ -90,6 +90,36 @@ dashtools gui
 sudo lsof -i :8050
 kill -9 69607
 
+follow all the render instructions
+untill need github.
+That's where we need go github and then create repo.
+
+boiler is just the repository name.
+Q: try with private.
+Then follow the code generated from there. to link this offline folder to the github repo'
+
+echo "# renderdashapptest" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/murftech/renderdashapptest.git
+
+this part needs PAT*
+git push -u origin main
+
+
+If computer is new to github need google search and create PAT
+Follow Official
+https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
+
+
+
+
+access token: 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
+
+
 
 
 
